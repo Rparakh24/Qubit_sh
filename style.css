@@ -5,16 +5,30 @@
 body{
     background-color: #ffffff;
 }
+.block-container{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    height: 10px;
+    background-color: rgb(255, 180, 140);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    width: 400px;
+    
+}
 .navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #f5f5f5;
     border-radius: 50px;
     padding: 10px;
+    gap: 10px;
 }
 .logo{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
 }
 .nav_ul{
@@ -23,7 +37,7 @@ body{
     align-items: center;
     gap: 30px;
     list-style: none;
-    height: 80px;
+    height: 70px;
 }
 .nav_ul a{
     text-decoration: none;
@@ -36,28 +50,79 @@ body{
     font-size: 30px;
     margin-top: 10px;
 }
-/* landing page */
-.landing-page{
-    height: 800px;
-    width: 100%;
-    border-radius: 20px;
+/* gov */
+.gov{
+    
+}
+.gov-flex{
+    background-color: whitesmoke;
+    height: 120px;
+    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    gap: 200px;
 }
-.landing-image{
-    height: 600px;
-    width: 600px;
-    margin-top: 100px;
+.gov-img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
 }
-.quote{
+/* help */
+.help{
+    margin-top: 200px;
+}
+.six{
+
+}
+.help{
+    margin: 100px;
+    margin-bottom: 140px;
+}
+.help-head-text{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+.help-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.help-image{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    background-color: rgb(218, 211, 211);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.help-text{
     font-size: 40px;
-    padding-top: 200px;
+    font-weight: 400;
+    text-align: center;
 }
-.headline{
-    font-size: 100px;
-    font-weight: 550px;
-    padding-top: 20px;
+.help-text2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* video */
+.video{
+    background-color: rgb(239, 246, 246);
+    padding: 100px;
+}
+.video-container{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.video-head{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+}
+.video-text{
+    font-size: 40px;
+    font-weight: 300;
 }
 /* stats */
 .statistics{
@@ -68,7 +133,8 @@ body{
 .stats-header{
     text-align: center;
     font-size: 100px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 
 }
 .stats{
@@ -83,6 +149,7 @@ body{
     width: 400px;
     border-radius: 30px;
     background-color: rgb(246, 230, 233);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .stats-heading{
     text-align: center;
@@ -98,30 +165,30 @@ body{
 }
 /* features */
 .features{
-    margin-bottom: 100px;
+    margin-top: 150px;
 }
 .feature-head {
     text-align: center;
     font-size: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 .feature-flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
     margin-bottom: 40px;
 }
 .feature-container{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     background-color: whitesmoke;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 300px;
-    width: 600px;
+    width: 800px;
 }
 .feature-image{
     height: 250px;
@@ -133,6 +200,30 @@ body{
     font-size: 30px;
     font-weight: 500;
     margin-left: 20px;
+}
+/* testimonial */
+.testimonial{
+    background-color: whitesmoke;
+    height: 800px;
+    border-radius: 50px;
+    padding: 100px;
+}
+.testimonial-heading{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.testimonial-flex{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.testimonial-container{
+    background-color: white;
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
 }
 /* footer */
 .footer{
